@@ -16,7 +16,7 @@ namespace ExpressionBodiedMembers
                 ["sauce"] = .45f
             };
 
-        public decimal Price { get; } = 3.25m;
+        public decimal Price => 3.25m;
 
         public void Add(string newIngredient, float amount) => IngredientAmounts[newIngredient] = amount;
 

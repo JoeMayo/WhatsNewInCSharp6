@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
+using static StaticUsing.MyInstanceWithStatic;
 
 namespace StaticUsing
 {
@@ -11,6 +12,7 @@ namespace StaticUsing
     {
         static void Main()
         {
+            string val = MyValue;
             WriteLine("Hello!");
             ReadKey();
         }

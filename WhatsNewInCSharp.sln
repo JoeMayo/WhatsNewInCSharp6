@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		What’s New in CSharp.pptx = What’s New in CSharp.pptx
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncEnhancements", "AsyncEnhancements\AsyncEnhancements.csproj", "{7B01B4E4-80B5-475B-81D3-94619B048878}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{FCAB88DA-A501-49DF-86B0-33B2DDE6FB9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCAB88DA-A501-49DF-86B0-33B2DDE6FB9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCAB88DA-A501-49DF-86B0-33B2DDE6FB9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B01B4E4-80B5-475B-81D3-94619B048878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B01B4E4-80B5-475B-81D3-94619B048878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B01B4E4-80B5-475B-81D3-94619B048878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B01B4E4-80B5-475B-81D3-94619B048878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

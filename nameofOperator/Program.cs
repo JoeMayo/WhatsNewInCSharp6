@@ -12,6 +12,10 @@ namespace nameofOperator
         {
             Console.WriteLine($"Parameter to Main is named {nameof(args)}");
 
+            var pizza = new Pizza();
+
+            Console.WriteLine($"Price is {nameof(pizza.Price)}");
+
             Console.ReadKey();
         }
     }
